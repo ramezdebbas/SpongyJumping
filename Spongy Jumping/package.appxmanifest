@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="f4f4c552-52e1-4312-bc26-c3363b9cdb8e" Version="1.0.0.0" Publisher="CN=Qasim" />
+  <Properties>
+    <DisplayName>Spongy Jumping</DisplayName>
+    <Description>Spongy Jumping</Description>
+    <PublisherDisplayName>Ramez</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Spongy Jumping" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Spongy Jumping" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" ShortName="Spongy Jumping" />
+        <SplashScreen Image="splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
